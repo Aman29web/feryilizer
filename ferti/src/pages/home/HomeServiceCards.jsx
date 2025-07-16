@@ -9,7 +9,7 @@ import pic6 from "../../assets/poster6.jpg";
 
 const homeServices = [
   {
-    id: "fertilizer-solutions",
+    id: "Humic + Fulvix acid",
     title: "Fertilizer Solutions",
     image: pic1,
     desc: "Boost yield and soil fertility with our customized fertilizers.",
