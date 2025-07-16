@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import 'swiper/css';
+@import 'swiper/css/effect-coverflow';
+@import 'swiper/css/pagination';
+
+:root {
+  --primary: #4CAF50;
+  --secondary: #A7D129;
+  --accent: #FFD700;
+  --dark: #1A1A1A;
+  --light: #FFF3E0;
+}
+
+body {
+  font-family: 'Poppins', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* No custom CSS needed for Tailwind's utility classes, but you can add custom styles here if you want to further tweak the underline or animation. */
