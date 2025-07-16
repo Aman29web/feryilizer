@@ -6,23 +6,23 @@ import React from 'react';
 function StatisticsSection() {
   const stats = [
     {
-      number: '1000+',
+      number: '30+',
       label: 'Agricultural Products',
     },
     {
-      number: '100000+',
+      number: '10000+',
       label: 'Farmer Touch Points',
     },
     {
-      number: '80+',
-      label: 'Countries Served',
+      number: '7+',
+      label: 'Cities Served',
     },
     {
-      number: '100+',
+      number: '30+',
       label: 'Years of Service',
     },
     {
-      number: '900+',
+      number: '100+',
       label: 'Retail Stores',
     },
   ];

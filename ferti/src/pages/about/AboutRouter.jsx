@@ -6,6 +6,7 @@ import TeamSection from './TeamSection'
 import OurPartners from './OurPartners'
 import Navbar from '../../component/navbar/Navbar'
 import Footer from '../../component/footer/Footer'
+import FounderSection from './FounderSection'
 
 const AboutRouter = () => {
   return (
@@ -15,8 +16,9 @@ const AboutRouter = () => {
       <OurStorySection></OurStorySection>
       {/* <OurStorySection></OurStorySection> */}
       <MissionVisionSection></MissionVisionSection>
-      <TeamSection></TeamSection>
-      <OurPartners></OurPartners>
+      <FounderSection></FounderSection>
+      {/* <TeamSection></TeamSection> */}
+      {/* <OurPartners></OurPartners> */}
       <Footer></Footer>
       
     </div>
