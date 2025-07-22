@@ -5,44 +5,45 @@ import pic2 from "../../assets/poster2.jpg";
 import pic3 from "../../assets/poster3.jpg";
 import pic4 from "../../assets/poster4.jpg";
 import pic5 from "../../assets/poster5.jpg";
-import pic6 from "../../assets/poster6.jpg";
+import pic6 from "../../assets/poster7.jpg";
+
 
 const homeServices = [
-  {
+{
     id: "Humic + Fulvix acid",
-    title: "Fertilizer Solutions",
+    title: "Humic + Fulvix acid",
     image: pic1,
-    desc: "Boost yield and soil fertility with our customized fertilizers.",
+    desc: "Enhance soil health and plant growth with the power of humic and fulvic acids.",
   },
   {
     id: "crop-protection",
-    title: "Crop Protection",
+    title: "Mruda Shakti",
     image: pic2,
-    desc: "Protect crops from pests and diseases using eco-safe solutions.",
+    desc: "Strengthen your crops naturally with Mruda Shakti for improved resilience and yield.",
   },
   {
     id: "soil-testing",
-    title: "Soil Testing",
+    title: "Potassium Sulphate",
     image: pic3,
-    desc: "Get your soil tested and make data-driven farming decisions.",
+    desc: "Provide essential potassium and sulfur nutrients for optimal plant growth with Potassium Sulphate.",
   },
   {
     id: "bio-products",
-    title: "Bio-Products",
+    title: "Sulphor Urvak",
     image: pic4,
-    desc: "Eco-friendly bio-products for sustainable farming practices.",
+    desc: "Boost crop vitality and nutrient uptake with Sulphor Urvak’s organic formulation.",
   },
   {
     id: "farmer-advisory",
-    title: "Farmer Advisory",
+    title: "Sanjivani",
     image: pic5,
-    desc: "Expert farming advice to maximize your productivity and profit.",
+    desc: "Revitalize your crops with Sanjivani, a natural solution for healthier plants.",
   },
   {
     id: "farm-equipment-support",
-    title: "Farm Equipment Support",
+    title: "Biozin+",
     image: pic6,
-    desc: "Get access to tools, machinery, and technical equipment support.",
+    desc: "Enhance root development and disease resistance with Biozin+ for stronger crops.",
   },
 ];
 

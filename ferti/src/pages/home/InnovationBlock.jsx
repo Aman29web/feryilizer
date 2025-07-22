@@ -2,16 +2,16 @@ import React from "react";
 
 const InnovationBlock = () => {
   return (
-    <section className="bg-gradient-to-br from-[#005E34] to-[#0B3E2A] text-white px-6 md:px-16 py-16 rounded-tl-[60px] rounded-br-[60px] max-w-7xl mx-auto mt-12">
-      <div className="flex flex-col lg:flex-row gap-12">
+    <section className="bg-gradient-to-br from-[#005E34] to-[#0B3E2A] text-white px-4 md:px-16 py-10 md:py-16 rounded-tl-3xl md:rounded-tl-[60px] rounded-br-3xl md:rounded-br-[60px] max-w-7xl mx-auto mt-8 md:mt-12">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
         {/* Left Side */}
-        <div className="lg:w-2/3">
-          <h2 className="text-4xl md:text-5xl font-semibold text-[#FFA336] leading-snug mb-8">
+        <div className="w-full lg:w-2/3">
+          <h2 className="text-3xl md:text-5xl font-semibold text-[#FFA336] leading-snug mb-6 md:mb-8">
             Tying Together <br />
             Innovation, Manufacturing <br />
             and Technology
           </h2>
-          <p className="text-gray-200 mb-6 leading-relaxed">
+          <p className="text-gray-200 mb-4 md:mb-6 leading-relaxed text-base md:text-lg">
             We innovate and introduce advanced farm technologies to create
             unique crop solutions and drive farm prosperity. By deeply
             understanding the evolving needs of Indian agriculture, we develop
@@ -21,7 +21,7 @@ const InnovationBlock = () => {
             and promote sustainable farming practices across diverse agro-climatic
             zones.
           </p>
-          <p className="text-gray-200 leading-relaxed">
+          <p className="text-gray-200 leading-relaxed text-base md:text-lg">
             Our state-of-the-art R&D and manufacturing facilities are tightly
             integrated with farmer feedback loops, ensuring every innovation is
             both practical and field-tested. Through continuous collaboration with
@@ -34,22 +34,22 @@ const InnovationBlock = () => {
         </div>
 
         {/* Right Side */}
-        <div className="lg:w-1/3 flex flex-col gap-8">
+        <div className="w-full lg:w-1/3 flex flex-col gap-6 md:gap-8">
           <div>
-            <h3 className="text-[#FFA336] text-xl font-semibold mb-2">
+            <h3 className="text-[#FFA336] text-lg md:text-xl font-semibold mb-2">
               Innovation
             </h3>
-            <p className="text-gray-200">
+            <p className="text-gray-200 text-base md:text-lg">
               Our research centers are always hard at work to discover and create
               novel solutions for the betterment of the farmers.
             </p>
           </div>
 
           <div>
-            <h3 className="text-[#FFA336] text-xl font-semibold mb-2">
+            <h3 className="text-[#FFA336] text-lg md:text-xl font-semibold mb-2">
               Manufacturing
             </h3>
-            <p className="text-gray-200">
+            <p className="text-gray-200 text-base md:text-lg">
               With 18 manufacturing facilities, we are sought out for our
               fertilisers, crop protection, bio-pesticides and water soluble
               fertilisers. We’ve also made a strategic investment for upstream
@@ -58,10 +58,10 @@ const InnovationBlock = () => {
           </div>
 
           <div>
-            <h3 className="text-[#FFA336] text-xl font-semibold mb-2">
+            <h3 className="text-[#FFA336] text-lg md:text-xl font-semibold mb-2">
               Technology
             </h3>
-            <p className="text-gray-200">
+            <p className="text-gray-200 text-base md:text-lg">
               We have made it extremely easy for farmers to easily adopt new
               technologies with our farm mechanization services in partnership
               with companies like Yanmar in Japan.

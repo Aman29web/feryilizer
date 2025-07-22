@@ -10,17 +10,17 @@ const stats = [
   },
   {
     label: "Farmers Served",
-    value: "25,000+",
+    value: "10,000+",
     icon: <FaUsers className="text-4xl text-green-600" />,
   },
   {
     label: "Fertilizer Variants",
-    value: "50+",
+    value: "30+",
     icon: <FaTractor className="text-4xl text-green-600" />,
   },
   {
-    label: "States Reached",
-    value: "15+",
+    label: "City Reached",
+    value: "7+",
     icon: <FaMapMarkedAlt className="text-4xl text-green-600" />,
   },
 ];

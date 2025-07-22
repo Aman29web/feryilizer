@@ -51,14 +51,15 @@ const Navbar = () => {
         </div>
 
         {/* CTA Button */}
-        <div className="hidden md:block">
-          <a
-            href="#quote"
-            className="bg-[#FFA336] text-[#0B3E2A] px-5 py-2 rounded-full hover:bg-[#e6952d] transition text-xl font-semibold transform hover:scale-105 duration-200 shadow-md hover:shadow-xl"
-          >
-            Get a Quote
-          </a>
-        </div>
+       {/* CTA Button */}
+<div className="hidden md:block">
+  <Link
+    to="/contactus"
+    className="bg-[#FFA336] text-[#0B3E2A] px-5 py-2 rounded-full hover:bg-[#e6952d] transition text-xl font-semibold transform hover:scale-105 duration-200 shadow-md hover:shadow-xl"
+  >
+    Contact
+  </Link>
+</div>
 
         {/* Hamburger Menu */}
         <button onClick={toggleMenu} className="md:hidden text-3xl text-white">

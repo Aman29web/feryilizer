@@ -4,20 +4,20 @@ import { motion } from "framer-motion";
 
 const FertilizerInfo = () => {
   return (
-    <section className="bg-gradient-to-br from-[#005E34] to-[#0B3E2A] text-white py-20 px-6 md:px-16 rounded-tl-[60px] rounded-br-[60px] max-w-7xl mx-auto my-14 shadow-xl">
-      <div className="flex flex-col-reverse lg:flex-row items-center gap-14">
+    <section className="bg-gradient-to-br from-[#005E34] to-[#0B3E2A] text-white py-12 md:py-20 px-4 sm:px-6 md:px-16 rounded-tl-[40px] md:rounded-tl-[60px] rounded-br-[40px] md:rounded-br-[60px] max-w-7xl mx-auto my-8 md:my-14 shadow-xl">
+      <div className="flex flex-col-reverse lg:flex-row items-center gap-8 md:gap-14">
         {/* Text Section */}
         <motion.div
-          className="lg:w-1/2"
+          className="lg:w-1/2 w-full"
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-5xl font-extrabold text-[#FFA336] mb-6 leading-snug tracking-tight">
-            HFPL Pure Diatomite <br /> Silicon Granules
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#FFA336] mb-4 md:mb-6 leading-tight md:leading-snug tracking-tight">
+            HFPL Pure Diatomite <br className="hidden sm:block" /> Silicon Granules
           </h2>
-          <ul className="space-y-3 text-base text-gray-200 leading-relaxed">
+          <ul className="space-y-2 md:space-y-3 text-sm sm:text-base text-gray-200 leading-relaxed">
             <li>
               <span className="font-semibold text-white">Type:</span> Beneficial Element Fertilizer
             </li>
@@ -31,7 +31,7 @@ const FertilizerInfo = () => {
               disease, and environmental stress.
             </li>
           </ul>
-          <div className="mt-6 text-gray-200">
+          <div className="mt-4 md:mt-6 text-sm sm:text-base text-gray-200">
             <p>
               Packed & Marketed by:
               <br />
@@ -46,13 +46,13 @@ const FertilizerInfo = () => {
 
         {/* Image Section */}
         <motion.div
-          className="lg:w-1/2 flex justify-center"
+          className="lg:w-1/2 w-full flex justify-center"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <div className="rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500 ease-in-out max-w-xs w-full">
+          <div className="rounded-2xl md:rounded-3xl overflow-hidden shadow-xl md:shadow-2xl hover:scale-105 transition-transform duration-500 ease-in-out w-full max-w-xs sm:max-w-sm">
             <img
               src={poster6}
               alt="Fertilizer Poster"

@@ -9,21 +9,21 @@ import pic3 from "../../assets/testimonial3.webp"
 const testimonials = [
   {
     name: "Rajeev Sharma",
-    location: "Punjab, India",
+    location: "Kanpur, India",
     quote:
       "Hemant Fertilizer's products helped me increase my wheat yield by 30%! Truly reliable and affordable.",
     image: pic1,
   },
   {
     name: "Kavita Patel",
-    location: "Gujarat, India",
+    location: "Kanpur, India",
     quote:
       "The organic line is excellent. Crops are healthier, and the service team is very supportive.",
     image: pic2,
   },
   {
     name: "Suresh Yadav",
-    location: "Maharashtra, India",
+    location: "Kanpur, India",
     quote:
       "I’ve been using their fertilizers for over 2 years now — great results and always on time delivery.",
     image: pic3,
